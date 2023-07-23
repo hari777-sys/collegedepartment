@@ -41,6 +41,7 @@ header{
     justify-content:space-between;
     align-items:center;
     padding:20px 100px;
+    transition:0.6s;
 }
 
 header.sticky{
@@ -66,9 +67,9 @@ header .logo{
 }
 header .menu{
     position:relative;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header .menu a{
@@ -80,7 +81,7 @@ header .menu a{
     padding:0px 10px;
     border-radius:20px;
     transition:0.3s;
-    transition-property:color,background;
+    transition-property:color, background;
 }
 
 header .menu a:hover{
@@ -121,14 +122,19 @@ header .btn{
 
 }
 
-@media (max-width: 600px){
+@media (max-width: 1060px){
     header .btn{
-    display: block;
+        display: block;
     }
 
     header .menu{
         position:fixed;
-        background:1483D5;
+        background: rgba( 255, 255, 255, 0.2 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 3px );
+        -webkit-backdrop-filter: blur( 3px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
         flex-direction: column;
         min-width:400px;
         height:100vh;
@@ -137,13 +143,30 @@ header .btn{
         padding:80px 50px;
     }
 
+    header .menu.active{
+        right:0;
+        }
+
+
     header .menu .close-btn{
         position:absolute;
         top:0;
         left:0;
         margin:25px;
     }
+    header .menu a{
+        display:block;
+        font-size:20px;
+        margin:20px;
+        padding:0 15px;
+        }
 }
+@media (max-width){
+    .section-main h1{
+    font-size:50px;
+    line-height:60px;
+    }
+    }
 
 .sticky {
             position: fixed;

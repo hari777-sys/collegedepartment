@@ -35,7 +35,7 @@
         <a href="#" class="logo">thiagarajar college</a>
         <div class="menu">
             <div class="btn">
-                <i class="fas fa-times close-btn"></i>
+                <i class="fa fa-times close-btn"></i>
             </div>
             <a href="#home">Home</a>
             <a href="#About">About</a>
@@ -43,7 +43,7 @@
             <a href="#Staff">Staff</a>
         </div>
         <div class="btn">
-            <i class="fas fa-bars menu-btn"></i>
+            <i class="fa fa-bars menu-btn"></i>
         </div>
     </header>
     <section class="home" id="home">
@@ -99,8 +99,8 @@
       }
       circle:nth-child(2) {
         stroke: white;
-        stroke-dasharray: 800;
-        stroke-dashoffset: calc(848 - (848 * 75) / 100);
+        stroke-dasharray: 848;
+        stroke-dashoffset: calc(848 - (848 * 90) / 100);
         stroke-linecap: round;
         stroke-width: 16px;
         animation: progress 3s ease;
@@ -162,10 +162,22 @@
     </div>
 
     <script type="text/javascript">
-        window.addEventListener("scroll", function() {
+        window.addEventListener("scroll", function(){
             var header = document.querySelector("header");
-            header.classList.toggle("sticky", window.scrollY > 0);
+            header.classList.toggle('sticky', window.scrollY > 0);
         });
+
+        var menu = document.querySelector('.menu');
+        var menuBtn = document.querySelector('.menu-btn');
+        var closeBtn = document.querySelector('.close-btn');
+
+        menuBtn.addEventListener("click",() => {
+        menu.classList.add('active');
+        });
+        closeBtn.addEventListener("click",() => {
+        menu.classList.remove('active');
+        });
+
 
         function openFlaskApp() {
             var flaskAppIframe = document.getElementById("flask-app-iframe");
