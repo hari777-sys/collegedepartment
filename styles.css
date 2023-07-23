@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;0,900;1,800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"poppins",sans-serif;
+}
+
+body{
+    min-height:100vh;
+}
+.home{
+    position:relative;
+    width:100%;
+    min-height:100vh;
+    background:url(source/cf.jpg)no-repeat;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.home h1{
+    color:rgb(255,255,255,0.5);
+    font-size:50px;
+    font-weight:800;
+
+    text-transform:uppercase;
+    letter-spacing:2px;
+    line-height:80px;
+}
+
+header{
+    z-index:999;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 100px;
+}
+
+header.sticky{
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding:15px 100px;
+    border-radius:20px;
+}
+
+header .logo{
+    color:#fff;
+    font-size:30px;
+    font-weight:700;
+    text-transform:uppercase;
+    text-decoration:none;
+    letter-spacing:2px;
+}
+
+}
+header .menu{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+header .menu a{
+    color:#fff;
+    font-size:16px;
+    font-weight:500;
+    text-decoration:none;
+    margin:0px 30px;
+    padding:0px 10px;
+    border-radius:20px;
+    transition:0.3s;
+    transition-property:color,background;
+}
+
+header .menu a:hover{
+    color:#000;
+    background:#fff;
+}
+
+header .btn{
+    color:#fff;
+    font-size:25px;
+    cursor:pointer;
+    display:none;
+}
+
+.about , .staff{
+    min-height:100vh;
+    background:#001018;
+    padding:20px 100px;
+}
+.history{
+    min-height:100vh;
+    background:#012b40;
+    padding:20px 100px;
+    }
+
+.about h2 , .history h3 , .staff h4{
+    color:rgb(255,255,255,0.5);
+    font-size:40px;
+    font-weight:700;
+    text-transform:uppercase;
+    margin:30px 0;
+}
+
+.about p , .history p , .staff p{
+    color:rgb(255,255,255,0.5);
+    font-size:18px;
+    margin:30px 0;
+
+}
+
+@media (max-width: 600px){
+    header .btn{
+    display: block;
+    }
+
+    header .menu{
+        position:fixed;
+        background:1483D5;
+        flex-direction: column;
+        min-width:400px;
+        height:100vh;
+        top:0;
+        right:0;
+        padding:80px 50px;
+    }
+
+    header .menu .close-btn{
+        position:absolute;
+        top:0;
+        left:0;
+        margin:25px;
+    }
+}
+
+.sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 999;
+        }
+
+.chatbot-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            background-color: #4d94ff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 24px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 999;
+            cursor: pointer;
+            transform:rotate(90deg);
+        }
+
+html{
+    scroll-behaviour:smooth;
+}

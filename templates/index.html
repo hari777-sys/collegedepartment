@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CHAT</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;0,900;1,800&display=swap');
+        body {
+            font-family: "poppins", sans-serif;
+            margin: 20px;
+            background:#012b40;
+            color:rgb(255,255,255,0.5);
+            text-transform:uppercase;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 10px;
+            font-size: 16px;
+            background-color: #001018;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%; /* Added to make the buttons the same width as the input box */
+            margin-top: 10px; /* Added for spacing */
+        }
+
+        .result {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        /* Align buttons and make page responsive */
+        .button-container {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            body {
+                margin: 10px;
+            }
+
+            input[type="text"] {
+                font-size: 14px;
+            }
+
+            button {
+                font-size: 14px;
+            }
+
+            .button-container {
+                flex-direction: column;
+                align-items: stretch;
+                justify-content: center;
+                margin-top: 10px;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <h1>I AM YOUR ASSISTANT</h1>
+    <form method="POST">
+        <label for="prompt">Prompt:</label>
+        <input type="text" id="prompt" name="prompt" required autocomplete="off">
+        <div class="button-container">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    {% if result %}
+        <div class="result">
+            <label>Result:</label>
+            <p>{{ result }}</p>
+        </div>
+    {% endif %}
+    <form action="/exit" method="post">
+        <button type="submit">Exit</button>
+    </form>
+</body>
+</html>

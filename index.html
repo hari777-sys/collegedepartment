@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THIAGARAJAR COLLEGE</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <style>
+        #flask-app-container {
+            position: fixed;
+            bottom: 90px;
+            right: 20px;
+            width: 400px;
+            height: 500px;
+            border: none;
+            display: none;
+            border-radius: 20px;
+            border: 3px solid #4d94ff;
+        }
+
+        #flask-app-iframe {
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+            border: 3px solid #4d94ff;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">thiagarajar college</a>
+        <div class="menu">
+            <div class="btn">
+                <i class="fas fa-times close-btn"></i>
+            </div>
+            <a href="#home">Home</a>
+            <a href="#About">About</a>
+            <a href="#History">History</a>
+            <a href="#Staff">Staff</a>
+        </div>
+        <div class="btn">
+            <i class="fas fa-bars menu-btn"></i>
+        </div>
+    </header>
+    <section class="home" id="home">
+        <h1>welcome to cs department</h1>
+    </section>
+    <section class="about" id="About">
+        <h2>about college</h2>
+        <p>hddhjhdffjfge utweuytwueytwugdchjhfytruaytuwhegnteuy</p>
+        <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round|Material+Icons+Sharp|Material+Icons+Two+Tone"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+      .center {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #001018;
+      }
+      .progress {
+        width: 400px;
+        height: 400px;
+        background: #001018;
+        border-radius: 5mm;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+      }
+      circle {
+        fill: none;
+      }
+      svg {
+        transform: rotate(-90deg);
+      }
+      circle:nth-child(1) {
+        stroke: rgb(25, 26, 49);
+        stroke-width: 12px;
+      }
+      circle:nth-child(2) {
+        stroke: white;
+        stroke-dasharray: 800;
+        stroke-dashoffset: calc(848 - (848 * 75) / 100);
+        stroke-linecap: round;
+        stroke-width: 16px;
+        animation: progress 3s ease;
+      }
+      @keyframes progress {
+        from {
+          stroke-dashoffset: 848;
+        }
+      }
+      .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: poppins;
+        font-size: 60px;
+        color: rgb(255, 230,230 );
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .text span {
+        font-size: 14px;
+        color: rgb(230, 230, 230);
+      }
+    </style>
+    <div class="center">
+      <div class="progress">
+        <svg class="progress-bar" width="300" height="300">
+          <circle class="progress-circle" cx="150" cy="150" r="135"></circle>
+          <circle class="progress-circle" cx="150" cy="150" r="135"></circle>
+        </svg>
+        <div class="text">
+          90 %
+          <span>placed</span>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section class="history" id="History">
+        <h3>History college</h3>
+        <p>hddhjhdffjfge utweuytwueytwugdchjhfytruaytuwhegnteuy</p>
+    </section>
+    <section class="staff" id="Staff">
+        <h4>Staff</h4>
+        <p>hddhjhdffjfge utweuytwueytwugdchjhfytruaytuwhegnteuy</p>
+    </section>
+
+    <!-- Chatbot Button -->
+    <button id="chatbot-button" class="chatbot-button" onclick="openFlaskApp()">
+        <i class="fas fa-comments"></i>
+    </button>
+
+    <!-- Flask App Container -->
+    <div id="flask-app-container">
+        <iframe id="flask-app-iframe" src="" frameborder="0"></iframe>
+    </div>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function() {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+
+        function openFlaskApp() {
+            var flaskAppIframe = document.getElementById("flask-app-iframe");
+            var flaskAppContainer = document.getElementById("flask-app-container");
+            // Set the Flask app URL
+            var flaskAppURL = "http://127.0.0.1:5000"; // Update with your Flask app URL
+
+            flaskAppIframe.src = flaskAppURL;
+            flaskAppContainer.style.display = "block";
+
+                     }
+
+
+    </script>
+</body>
+</html>
+
