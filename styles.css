@@ -25,7 +25,6 @@ body{
     color:rgb(255,255,255,0.5);
     font-size:50px;
     font-weight:800;
-
     text-transform:uppercase;
     letter-spacing:2px;
     line-height:80px;
@@ -96,7 +95,7 @@ header .btn{
     display:none;
 }
 
-.about , .staff{
+.about , .student{
     min-height:100vh;
     background:#001018;
     padding:20px 100px;
@@ -107,20 +106,72 @@ header .btn{
     padding:20px 100px;
     }
 
-.about h2 , .history h3 , .staff h4{
+.about h2 , .history h3 , .student h4{
     color:rgb(255,255,255,0.5);
     font-size:40px;
     font-weight:700;
     text-transform:uppercase;
-    margin:30px 0;
+    margin:50px 0;
 }
 
-.about p , .history p , .staff p{
+.about p , .history p , .student p{
     color:rgb(255,255,255,0.5);
     font-size:18px;
     margin:30px 0;
 
 }
+.login-container {
+            background-color:#001018;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .login-container h2 {
+            margin-bottom: 20px;
+            color:rgb(255,255,255,0.5);
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .login-form input[type="text"] {
+            width: 250px;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        .login-form input[type="submit"] {
+            width: 150px;
+            padding: 10px;
+            margin-top: 20px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .login-form input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .message-container {
+            margin-top: 20px;
+        }
+
+        .error-message {
+            color: #cc0000;
+            font-weight: bold;
+        }
 
 @media (max-width: 1060px){
     header .btn{
@@ -193,7 +244,7 @@ header .btn{
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             z-index: 999;
             cursor: pointer;
-            transform:rotate(90deg);
+
         }
 
 html{
