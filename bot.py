@@ -1,4 +1,5 @@
 import boto3
+from datetime import datetime
 import os
 import sys
 import openai
@@ -49,8 +50,21 @@ def save_chat_history_to_s3():
     bucket_name = 'mybothistory'
     file_name = 'chat_history.txt'
 
-    # Generate chat history text
-    chat_text = "\n".join([f"User: {query}\nChatbot: {response}\n" for query, response in chat_history])
+    current_datetime = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
-    # Save chat history to S3
-    s3.put_object(Body=chat_text, Bucket=bucket_name, Key=file_name)
+    # Generate chat history text with date and time
+    chat_text = "\n".join(
+        [f"{current_datetime}\nUser: {query}\nChatbot: {response}\n" for query, response in chat_history])
+
+    # Append chat history to the existing text file in S3
+    existing_chat_text = ""
+
+    try:
+        response = s3.get_object(Bucket=bucket_name, Key=file_name)
+        existing_chat_text = response['Body'].read().decode('utf-8')
+    except Exception as e:
+        # Handle the case when the file doesn't exist in S3
+        pass
+
+    updated_chat_text = existing_chat_text + chat_text
+    s3.put_object(Body=updated_chat_text, Bucket=bucket_name, Key=file_name)
