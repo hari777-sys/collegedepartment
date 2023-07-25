@@ -5,6 +5,7 @@
     padding:0;
     box-sizing:border-box;
     font-family:"poppins",sans-serif;
+    text-transform:uppercase;
 }
 
 body{
@@ -25,7 +26,6 @@ body{
     color:rgb(255,255,255,0.5);
     font-size:50px;
     font-weight:800;
-    text-transform:uppercase;
     letter-spacing:2px;
     line-height:80px;
 }
@@ -58,7 +58,6 @@ header .logo{
     color:#fff;
     font-size:30px;
     font-weight:700;
-    text-transform:uppercase;
     text-decoration:none;
     letter-spacing:2px;
 }
@@ -110,7 +109,6 @@ header .btn{
     color:rgb(255,255,255,0.5);
     font-size:40px;
     font-weight:700;
-    text-transform:uppercase;
     margin:50px 0;
 }
 
