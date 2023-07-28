@@ -1,5 +1,4 @@
-department of computer science
-    the HEAD OF THE DEPARTMENT IS MRS.Valli S M  	B.E., M.C.A., M.Phil.team of various computer stream professionals concerned with education, practical analysis,training and placements.
+department of computer science:the HEAD OF THE DEPARTMENT IS MRS.Valli S M B.E., M.C.A., M.Phil.team of various computer stream professionals concerned with education, practical analysis,training and placements.
 	we our various stream of computer background course including cognitive systems and bpo offered exclusively from tata consultancy services and individual particular placement training and organizing interviews for these particular courses alone.
 	extremely talented assistant professor managed by an associate professor, experienced more of an age of an individual student.
 	we offer various branches including doing diploma courses and staffs can mentor for every individual doing phd on respective fields
@@ -8,31 +7,19 @@ department of computer science
 	every year we have placement drive working individually for computer science department and helping the available students in getting placed
 	we have very few talented lab assistants and a highly responsive LAN network for our computer labs, not only for our department, but in entirety connecting all available pc's in the tc network
 
-	assistant professor - hema
-	B.E., M.S., Ph.D
-	assistant professor - natarajan
-	M.Sc., M.Phil., Ph.D.
-	assistant professor - sumathi
-	MCA, M.Phil.,Ph.D.
-	assistant professor - prakash
-	M.Sc
-	assistant professor - chandrasekar r
-	MCA.,M.Phil(CA).,SET
-	assistant professor -suriya prabha
-	M.C.A., M.Phil., SET
-	assistant professor - sharmila
-	M.Sc., M.Phil.,NET
-	assistant professor - urmila
+	Associate Professors Mrs.Hema B.E., M.S., Ph.D and Mr.Natarajan M.Sc., M.Phil., Ph.D.
+	Assistant Professors - Sumathi MCA, M.Phil.,Ph.D. Mr.Prakash M.Sc Chandrasekar r MCA.,M.Phil(CA).,SET Suriya prabha M.C.A., M.Phil., SET Sharmila M.Sc., M.Phil.,NET
+	urmila
 	M.C.A., M.Phil. SET, Ph.D
-	assistant professor - dr manickam p
+	 dr manickam p
 	M.C.A., M.Phil., Ph.D.
-	assistant professor - nalini
+	 nalini
 	M.C.A., M.Phil.,(NET)
-	assistant professor - Gnanasankaran
+	Gnanasankaran
 	MCA,, Ph.D.,PDF
-	assistant professor -dr kesavan g d
+	dr kesavan g d
 	M.Sc., Ph.D.
-	assistant professor - dr nelson raja j
+	dr nelson raja j
 	M.Sc., Ph.D
 	assistant professor - dr rakesh g
 	M.C.A., M.Phil., Ph.D.
