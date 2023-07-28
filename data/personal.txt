@@ -1,6 +1,5 @@
 department of computer science
-    the HEAD OF THE DEPARTMENT IS MRS.Valli S M
-	team of various computer stream professionals concerned with education, practical analysis,training and placements.
+    the HEAD OF THE DEPARTMENT IS MRS.Valli S M  	B.E., M.C.A., M.Phil.team of various computer stream professionals concerned with education, practical analysis,training and placements.
 	we our various stream of computer background course including cognitive systems and bpo offered exclusively from tata consultancy services and individual particular placement training and organizing interviews for these particular courses alone.
 	extremely talented assistant professor managed by an associate professor, experienced more of an age of an individual student.
 	we offer various branches including doing diploma courses and staffs can mentor for every individual doing phd on respective fields
@@ -9,9 +8,6 @@ department of computer science
 	every year we have placement drive working individually for computer science department and helping the available students in getting placed
 	we have very few talented lab assistants and a highly responsive LAN network for our computer labs, not only for our department, but in entirety connecting all available pc's in the tc network
 
-
-
-	B.E., M.C.A., M.Phil.
 	assistant professor - hema
 	B.E., M.S., Ph.D
 	assistant professor - natarajan
