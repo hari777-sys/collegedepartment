@@ -21,9 +21,10 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
+    padding:20px 100px;
 }
 .home h1{
-    color:rgb(255,255,255,0.5);
+    color:rgb(255,255,255,255);
     font-size:50px;
     font-weight:800;
     letter-spacing:2px;
@@ -98,12 +99,14 @@ header .btn{
     min-height:100vh;
     background:#001018;
     padding:20px 100px;
+    padding:20px 100px;
 }
 .department{
     min-height:100vh;
     background:#012b40;
     padding:20px 100px;
-    }
+    padding:20px 100px;
+}
 
 .about h2 , .department h3 , .student h4{
     color:rgb(255,255,255,0.5);
@@ -118,6 +121,50 @@ header .btn{
     margin:30px 0;
 
 }
+
+@media (max-width: 1060px){
+    header .btn{
+        display: block;
+    }
+
+    header .menu{
+        position:fixed;
+        background: rgba( 255, 255, 255, 0.2 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 3px );
+        -webkit-backdrop-filter: blur( 3px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        flex-direction: column;
+        min-width:400px;
+        height:100vh;
+        top:0;
+        right:-100%;
+        padding:80px 50px;
+        transition: 0.5s;
+        transition-property: right;
+    }
+
+    header .menu.active{
+        right:0;
+        }
+
+
+    header .menu .close-btn{
+        position:absolute;
+        top:0;
+        left:0;
+        margin:25px;
+    }
+    header .menu a{
+        display: block;
+        font-size: 20px;
+        margin: 20px;
+        padding: 0 15px;
+        }
+}
+
+
 .login-container {
             background-color:#001018;
             padding: 20px;
@@ -171,46 +218,7 @@ header .btn{
             font-weight: bold;
         }
 
-@media (max-width: 1060px){
-    header .btn{
-        display: block;
-    }
-
-    header .menu{
-        position:fixed;
-        background: rgba( 255, 255, 255, 0.2 );
-        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        backdrop-filter: blur( 3px );
-        -webkit-backdrop-filter: blur( 3px );
-        border-radius: 10px;
-        border: 1px solid rgba( 255, 255, 255, 0.18 );
-        flex-direction: column;
-        min-width:400px;
-        height:100vh;
-        top:0;
-        right:0;
-        padding:80px 50px;
-    }
-
-    header .menu.active{
-        right:0;
-        }
-
-
-    header .menu .close-btn{
-        position:absolute;
-        top:0;
-        left:0;
-        margin:25px;
-    }
-    header .menu a{
-        display:block;
-        font-size:20px;
-        margin:20px;
-        padding:0 15px;
-        }
-}
-@media (max-width){
+@media (max-width: 630px){
     .section-main h1{
     font-size:50px;
     line-height:60px;
@@ -247,4 +255,7 @@ header .btn{
 
 html{
     scroll-behaviour:smooth;
-}
+    }
+    body::-webkit-scrollbar {
+    display: none;}
+

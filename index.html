@@ -7,7 +7,6 @@
     <title>THIAGARAJAR COLLEGE</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
     <style>
         #flask-app-container {
             position: fixed;
@@ -20,6 +19,7 @@
             border-radius: 20px;
             border: 3px solid #4d94ff;
         }
+
 
         #close-btn {
             position: absolute;
@@ -45,17 +45,17 @@
 <body>
     <header>
         <a href="#" class="logo">thiagarajar college</a>
+        <div class="btn">
+            <i class="fas  fa-bars menu-btn"></i>
+        </div>
         <div class="menu">
             <div class="btn">
-                <i class="fa fa-times close-btn"></i>
+                <i class="fas fa-times close-btn"></i>
             </div>
             <a href="#home">Home</a>
             <a href="#About">college</a>
             <a href="#Department">department</a>
             <a href="#Student">Students</a>
-        </div>
-        <div class="btn">
-            <i class="fa fa-bars menu-btn"></i>
         </div>
     </header>
     <section class="home" id="home">
@@ -136,10 +136,11 @@ Here are some of the key highlights of Thiagarajar College:
         var closeBtn = document.querySelector('.close-btn');
 
         menuBtn.addEventListener("click",() => {
-        menu.classList.add('active');
+            menu.classList.add('active');
         });
+
         closeBtn.addEventListener("click",() => {
-        menu.classList.remove('active');
+            menu.classList.remove('active');
         });
 
 

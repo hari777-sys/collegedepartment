@@ -1,50 +1,24 @@
-department of computer science:the HEAD OF THE DEPARTMENT IS MRS.Valli S M B.E., M.C.A., M.Phil.team of various computer stream professionals concerned with education, practical analysis,training and placements.
-	we our various stream of computer background course including cognitive systems and bpo offered exclusively from tata consultancy services and individual particular placement training and organizing interviews for these particular courses alone.
-	extremely talented assistant professor managed by an associate professor, experienced more of an age of an individual student.
-	we offer various branches including doing diploma courses and staffs can mentor for every individual doing phd on respective fields
-	we have highly organized lab materials and high speed ethernet specialities promoting education on available mediums
-	we have almost 90% of students coping for placements and the other part choosing higher studies on our deemed institutions
-	every year we have placement drive working individually for computer science department and helping the available students in getting placed
-	we have very few talented lab assistants and a highly responsive LAN network for our computer labs, not only for our department, but in entirety connecting all available pc's in the tc network
+Department of Computer Science, led by Mrs. S.M. Valli as the Head of the Department (HOD), offers various computer courses with a focus on education, training, and placements. Specialized courses in cognitive systems, in collaboration with TCS, provide tailored training for students.
+- Associate Professors:
+    - Mrs. A.M. Hema (B.E., M.S., Ph.D.)
+    - Dr. K.K. Natarajan (M.Sc., M.Phil., Ph.D.)
 
-	Associate Professors Mrs.Hema B.E., M.S., Ph.D and Mr.Natarajan M.Sc., M.Phil., Ph.D.
-	Assistant Professors - Sumathi MCA, M.Phil.,Ph.D. Mr.Prakash M.Sc Chandrasekar r MCA.,M.Phil(CA).,SET Suriya prabha M.C.A., M.Phil., SET Sharmila M.Sc., M.Phil.,NET
-	urmila
-	M.C.A., M.Phil. SET, Ph.D
-	 dr manickam p
-	M.C.A., M.Phil., Ph.D.
-	 nalini
-	M.C.A., M.Phil.,(NET)
-	Gnanasankaran
-	MCA,, Ph.D.,PDF
-	dr kesavan g d
-	M.Sc., Ph.D.
-	dr nelson raja j
-	M.Sc., Ph.D
-	assistant professor - dr rakesh g
-	M.C.A., M.Phil., Ph.D.
-	assistant professor - vennila k
-	M.Sc., M.Phil.
-	assistant professor - dr subhashini b
-	M.C.A., M.Phil., Ph.D
-	assistant professor -  dr sandha r
-	M.C.A., Ph.D.
-	assistant professor - dr sharista a
-	MCA., M.Phil., Ph.D
-
-
-
-PROGRAMMES OFFERED
-
-Aided
-
-B.Sc. Computer Science
-Self-Financed
-
-M.Phil Computer Science
-M.Sc. Computer Science
-B.Sc. Comp. Sc. in Cognitive Systems
-B.Sc. Comp. Sc.
-Diploma in Advanced Web Technologies
-Certificate Course in Web Designing
-Certificate Oriented Programme
+- Assistant Professors:
+    - Dr. M.R. Sumathi (MCA, M.Phil., Ph.D.)
+    - Mr. J. Prakash (M.Sc.)
+    - Mr. R. Chandrasekar (MCA, M.Phil(CA), SET)
+    - Ms. K. Suriya Prabha (M.C.A., M.Phil., SET)
+    - Mrs. K. Sharmila (M.Sc., M.Phil., NET)
+    - Mrs. T.S. Urmila (M.C.A., M.Phil., SET, Ph.D.)
+    - Dr. P. Manickam (M.C.A., M.Phil., Ph.D.)
+    - Ms. G. Nalini (M.C.A., M.Phil., NET)
+    - Dr. N. Gnanasankaran (MCA, Ph.D., PDF)
+    - Dr. G. D. Kesavan (M.Sc., Ph.D.)
+    - Dr. J. Nelson Raja (M.Sc., Ph.D.)
+    - Dr. G. Rakesh (M.C.A., M.Phil., Ph.D.)
+    - Ms. K. Vennila (M.Sc., M.Phil.)
+    - Dr. B. Subhashini (M.C.A., M.Phil., Ph.D.)
+    - Dr. R. Sandha (M.C.A., Ph.D.)
+    - Dr. A. Sharmista (MCA, M.Phil., Ph.D.)
+The department boasts a remarkable 90% placement rate. It offers various programs, including B.Sc. Computer Science (Aided) and B.Sc. Comp. Sc., B.Sc. Comp. Sc. in Cognitive Systems, B.Sc.Data Science, M.Sc. Computer Science, M.Phil Computer Science, Diploma in Advanced Web Technologies, and Certificate Course in Web Designing (Self-Financed).
+Dr.B.Subhashini is the mentor of 3rd year cognitive system
