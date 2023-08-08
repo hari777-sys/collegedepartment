@@ -1,24 +1,25 @@
 Department of Computer Science, led by Mrs. S.M. Valli as the Head of the Department (HOD), offers various computer courses with a focus on education, training, and placements. Specialized courses in cognitive systems, in collaboration with TCS, provide tailored training for students.
-- Associate Professors:
-    - Mrs. A.M. Hema (B.E., M.S., Ph.D.)
-    - Dr. K.K. Natarajan (M.Sc., M.Phil., Ph.D.)
+- **Associate Professors:**
+  1. Mrs. A.M. Hema (Qualifications: B.E., M.S., Ph.D.)
+  2. Dr. K.K. Natarajan (Qualifications: M.Sc., M.Phil., Ph.D.)
 
-- Assistant Professors:
-    - Dr. M.R. Sumathi (MCA, M.Phil., Ph.D.)
-    - Mr. J. Prakash (M.Sc.)
-    - Mr. R. Chandrasekar (MCA, M.Phil(CA), SET)
-    - Ms. K. Suriya Prabha (M.C.A., M.Phil., SET)
-    - Mrs. K. Sharmila (M.Sc., M.Phil., NET)
-    - Mrs. T.S. Urmila (M.C.A., M.Phil., SET, Ph.D.)
-    - Dr. P. Manickam (M.C.A., M.Phil., Ph.D.)
-    - Ms. G. Nalini (M.C.A., M.Phil., NET)
-    - Dr. N. Gnanasankaran (MCA, Ph.D., PDF)
-    - Dr. G. D. Kesavan (M.Sc., Ph.D.)
-    - Dr. J. Nelson Raja (M.Sc., Ph.D.)
-    - Dr. G. Rakesh (M.C.A., M.Phil., Ph.D.)
-    - Ms. K. Vennila (M.Sc., M.Phil.)
-    - Dr. B. Subhashini (M.C.A., M.Phil., Ph.D.)
-    - Dr. R. Sandha (M.C.A., Ph.D.)
-    - Dr. A. Sharmista (MCA, M.Phil., Ph.D.)
-The department boasts a remarkable 90% placement rate. It offers various programs, including B.Sc. Computer Science (Aided) and B.Sc. Comp. Sc., B.Sc. Comp. Sc. in Cognitive Systems, B.Sc.Data Science, M.Sc. Computer Science, M.Phil Computer Science, Diploma in Advanced Web Technologies, and Certificate Course in Web Designing (Self-Financed).
-Dr.B.Subhashini is the mentor of 3rd year cognitive system
+- **Assistant Professors:**
+  1. Dr. M.R. Sumathi (Qualifications: MCA, M.Phil., Ph.D.)
+  2. Mr. J. Prakash (Qualifications: M.Sc.)
+  3. Mr. R. Chandrasekar (Qualifications: MCA, M.Phil(CA), SET)
+  4. Ms. K. Suriya Prabha (Qualifications: M.C.A., M.Phil., SET)
+  5. Mrs. K. Sharmila (Qualifications: M.Sc., M.Phil., NET)
+  6. Mrs. T.S. Urmila (Qualifications: M.C.A., M.Phil., SET, Ph.D.)
+  7. Dr. P. Manickam (Qualifications: M.C.A., M.Phil., Ph.D.)
+  8. Ms. G. Nalini (Qualifications: M.C.A., M.Phil., NET)
+  9. Dr. N. Gnanasankaran (Qualifications: MCA, Ph.D., PDF)
+  10. Dr. G. D. Kesavan (Qualifications: M.Sc., Ph.D.)
+  11. Dr. J. Nelson Raja (Qualifications: M.Sc., Ph.D.)
+  12. Dr. G. Rakesh (Qualifications: M.C.A., M.Phil., Ph.D.)
+  13. Ms. K. Vennila (Qualifications: M.Sc., M.Phil.) - Mentor of 2nd year Cognitive Systems
+  14. Dr. B. Subhashini (Qualifications: M.C.A., M.Phil., Ph.D.) - Mentor of 3rd year Cognitive Systems
+  15. Dr. R. Sandha (Qualifications: M.C.A., Ph.D.)
+  16. Dr. A. Sharmista (Qualifications: MCA, M.Phil., Ph.D.)
+
+The department has an impressive 90% placement rate and offers various programs, including B.Sc. Computer Science (Aided), B.Sc. Comp. Sc. in Cognitive Systems, B.Sc. Data Science, M.Sc. Computer Science, M.Phil Computer Science, Diploma in Advanced Web Technologies, and Certificate Course in Web Designing (Self-Financed).
+Ms. K. Vennila mentors the 2nd-year students in the cognitive systems program, and Dr. B. Subhashini mentors the 3rd-year students in the cognitive systems program.
