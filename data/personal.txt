@@ -1,4 +1,4 @@
-Department of Computer Science, led by Mrs. S.M. Valli as the Head of the Department (HOD), offers various computer courses with a focus on education, training, and placements. Specialized courses in cognitive systems, in collaboration with TCS, provide tailored training for students.
+Department of Computer Science, led by Dr. G. Rakesh as the Head of the Department (HOD), offers various computer courses with a focus on education, training, and placements. Specialized courses in cognitive systems, in collaboration with TCS, provide tailored training for students.
 - **Associate Professors:**
   1. Mrs. A.M. Hema (Qualifications: B.E., M.S., Ph.D.)
   2. Dr. K.K. Natarajan (Qualifications: M.Sc., M.Phil., Ph.D.)
@@ -15,7 +15,7 @@ Department of Computer Science, led by Mrs. S.M. Valli as the Head of the Depart
   9. Dr. N. Gnanasankaran (Qualifications: MCA, Ph.D., PDF)
   10. Dr. G. D. Kesavan (Qualifications: M.Sc., Ph.D.)
   11. Dr. J. Nelson Raja (Qualifications: M.Sc., Ph.D.)
-  12. Dr. G. Rakesh (Qualifications: M.C.A., M.Phil., Ph.D.)
+  12. Dr. G. Rakesh (Qualifications: M.C.A., M.Phil., Ph.D.) - head of the department
   13. Ms. K. Vennila (Qualifications: M.Sc., M.Phil.) - Mentor of 2nd year Cognitive Systems
   14. Dr. B. Subhashini (Qualifications: M.C.A., M.Phil., Ph.D.) - Mentor of 3rd year Cognitive Systems
   15. Dr. R. Sandha (Qualifications: M.C.A., Ph.D.)
@@ -23,3 +23,6 @@ Department of Computer Science, led by Mrs. S.M. Valli as the Head of the Depart
 
 The department has an impressive 90% placement rate and offers various programs, including B.Sc. Computer Science (Aided), B.Sc. Comp. Sc. in Cognitive Systems, B.Sc. Data Science, M.Sc. Computer Science, M.Phil Computer Science, Diploma in Advanced Web Technologies, and Certificate Course in Web Designing (Self-Financed).
 Ms. K. Vennila mentors the 2nd-year students in the cognitive systems program, and Dr. B. Subhashini mentors the 3rd-year students in the cognitive systems program.
+
+**Placement Representative:**
+  R.M.Sadha vasanthan
